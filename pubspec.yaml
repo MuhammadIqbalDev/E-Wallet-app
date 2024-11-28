@@ -1,0 +1,46 @@
+name: eternalwallet
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.17.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^2.0.6
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+  outline_gradient_button: ^2.0.0+1
+  intl: ^0.18.1
+  flutter_switch: ^0.3.2
+  flutter_bloc: ^8.1.3
+  hydrated_bloc: ^9.1.1
+  path_provider: ^2.0.15
+  provider: ^6.0.5
+  flutter_rounded_date_picker: ^3.0.4
+  dropdown_button2: ^2.1.3
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/Logo.png"
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Urbanist
+      fonts: 
+        - asset: assets/fonts/UrbanistRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/UrbanistRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/UrbanistRegular.ttf
+          weight: 400
+        - asset: assets/fonts/UrbanistSemiBold.ttf
+          weight: 600
